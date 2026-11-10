@@ -1,8 +1,8 @@
 # 🧠 Time Series Classification – ANNDL Challenge 2
 
-This repository contains our work for **Artificial Neural Networks and Deep Learning – Challenge 2 (2022)**.  
+This repository contains our work for [**Artificial Neural Networks and Deep Learning – Challenge 2 (2022)**](https://codalab.lisn.upsaclay.fr/competitions/9056#learn_the_details).  
 The task was to build a deep learning model capable of classifying multivariate **time series into 12 classes**.  
-Our final approach achieved an accuracy of **73.38% on the Codalab test set**, and received a final evaluation of **7/7 points**.
+Our final approach achieved an accuracy of **73.38% on the Codalab test set**, and ranked **90th out of 525** participants **(top 17%)** on the leaderboard.
 
 ---
 
@@ -52,6 +52,7 @@ We included in the delivery folder all the most relevant approaches, features, a
 ---
 
 ## 📊 Results
+- **Leaderboard:** ranked **90th out of 525** participants **(top 17%)**.
 - **Single best model**: Conv1D + BiLSTM  
 - **Final ensemble**: Hybrid (LSTM + BiLSTM + Conv1D + GRU)  
 - **Codalab Test Accuracy**: **73.38%**  
